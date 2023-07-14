@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.header{
+    position: relative;
+    top: 20px;
+}
+.error-txt{
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+.title-1{
+    width: 586px;
+    color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+
+}
+.dis-1{
+    width: 381px;
+    color: var(--gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+
+}
+.btn-1{
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    background: var(--gray-1, #333);
+    border: none;
+
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.container{
+    width: 80%;
+    margin: 90px 100px;
+    display: flex;
+    gap: 100px;
+
+    justify-content: space-between;
+    
+
+}
+.container-1 > img{
+    width: 1440px;
+    height: 1080px;
+
+
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+footer p{
+    color: #BDBDBD;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+footer span{
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.container-1 img{
+    width: 539.224px;
+    height: 447.426px;
+    flex-shrink: 0;
+}
